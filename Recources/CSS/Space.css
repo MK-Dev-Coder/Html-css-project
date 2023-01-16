@@ -1,0 +1,36 @@
+
+
+.wrap{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  
+  img{
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all 500ms;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+    filter: grayscale(100%);
+  }
+  
+  img:hover, img:active{
+    flex: 7;
+    filter: grayscale(0%) sepia(0%);
+  }
+
+ 
+
+  h1{
+    text-align: center;
+  }
+
+  .text{
+    text-align: center;
+    font-size: large;
+  }
